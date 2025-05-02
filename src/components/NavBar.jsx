@@ -22,7 +22,7 @@ export const NavBar = (menuOpen, setMenuOpen) =>{
                 <div className="hidden md:flex items-center space-x-8">
                     <a 
                         href="#about" 
-                        className="tex-gray-300 hove:text-white transition-colors"
+                        className="tex-gray-300 hove:text-white transition-colors font-mono text-s font-bold"
                     >
                         {" "}
                         About{" "}
@@ -30,7 +30,7 @@ export const NavBar = (menuOpen, setMenuOpen) =>{
 
                     <a 
                         href="#resume"
-                        className="tex-gray-300 hove:text-white transition-colors"
+                        className="tex-gray-300 hove:text-white transition-colors font-mono text-s font-bold"
                     >
                         {" "}
                         Resume{" "}
@@ -38,7 +38,7 @@ export const NavBar = (menuOpen, setMenuOpen) =>{
 
                     <a 
                         href="#projects" 
-                        className="tex-gray-300 hove:text-white transition-colors"
+                        className="tex-gray-300 hove:text-white transition-colors font-mono text-s font-bold"
                     >
                         {" "}
                         Projects{" "}
@@ -46,7 +46,7 @@ export const NavBar = (menuOpen, setMenuOpen) =>{
 
                     <a 
                         href="#contact" 
-                        className="tex-gray-300 hove:text-white transition-colors"
+                        className="tex-gray-300 hove:text-white transition-colors font-mono text-s font-bold"
                     >
                         {" "}
                         Contact{" "}
