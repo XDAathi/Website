@@ -15,40 +15,49 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
             <button  
                 onClick={() => setMenuOpen(false)} 
                 className="absolute top-6 right-6 text-white text-3xl focus:outline-none cursor-pointer"
+                aria-label="Close Menu"
                 >
                     &times;
             </button>
             
             <a 
-                href="#about" 
-                className="text-gray-300 hove:text-white transition-colors font-mono text-s font-bold"
+                href="#about"
+                onClick={() => setMenuOpen(false)}
+                className={`font-mono text-s text-2xl font-semibold text-white my-4 transform transition-transform duratio-300
+                            ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}
+                `}
             >
-                {" "}
-                About{" "}
+                About
             </a>
 
             <a 
                 href="#resume"
-                className="text-gray-300 hove:text-white transition-colors font-mono text-s font-bold"
+                onClick={() => setMenuOpen(false)}
+                className={`font-mono text-s text-2xl font-semibold text-white my-4 transform transition-transform duratio-300
+                    ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}
+                `}
             >
-                {" "}
-                Resume{" "}
+                Resume
             </a>
 
             <a 
-                href="#projects" 
-                className="text-gray-300 hove:text-white transition-colors font-mono text-s font-bold"
+                href="#projects"
+                onClick={() => setMenuOpen(false)}
+                className={`font-mono text-s text-2xl font-semibold text-white my-4 transform transition-transform duratio-300
+                    ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}
+                `}
             >
-                {" "}
-                Projects{" "}
+                Projects
             </a>
 
             <a 
-                href="#contact" 
-                className="text-gray-300 hove:text-white transition-colors font-mono text-s font-bold"
+                href="#contact"
+                onClick={() => setMenuOpen(false)}
+                className={`font-mono text-s text-2xl font-semibold text-white my-4 transform transition-transform duratio-300
+                    ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}
+                `}
             >
-                {" "}
-                Contact{" "}
+                Contact
             </a>
         </div>
     );
