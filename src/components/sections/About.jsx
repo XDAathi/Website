@@ -15,7 +15,7 @@ export const About = () => {
                         Hey I'm Aathi!
                     </h1>
                     <p className="font-mono text-lg text-gray-200 mb-8 max-w-lg mt-4 text-center">
-                        I'm a 2nd year who is pursuing a Statistics Quant Finance Specialist with an Econ minor
+                        I'm a 2nd year who is pursuing a Statistics Quantitative Finance Specialist with an Econ minor
                         <br /><span className="text-blue-400"> @University of Toronto</span>
                     </p>
                 </div>
