@@ -14,7 +14,7 @@ export const About = () => {
                     <h1 className="font-mono text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-100 to-blue-400 bg-clip-text text-transparent">
                         Hey I'm Aathi!
                     </h1>
-                    <p className="font-mono text-lg text-gray-200 mb-8 max-w-lg mt-4">
+                    <p className="font-mono text-lg text-gray-200 mb-8 max-w-lg mt-4 text-center">
                         I'm a 2nd year who is pursuing a Statistics Quant Finance Specialist with an Econ minor
                         <br /><span className="text-blue-400"> @University of Toronto</span>
                     </p>
