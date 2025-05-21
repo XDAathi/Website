@@ -5,6 +5,7 @@ import './index.css';
 import { NavBar } from './components/NavBar';
 import { MobileMenu } from './components/MobileMenu';
 import { About } from './components/sections/About';
+import { GiSkills } from 'react-icons/gi';
 
 function App(){
   const [isLoaded, setIsLoaded] = useState(false)
@@ -17,6 +18,9 @@ function App(){
       <NavBar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <About />
+      {/* <Resume />
+      <Projects />
+      <Skills /> */}
     </div>
   </>
   );
