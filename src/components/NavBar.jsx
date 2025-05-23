@@ -28,13 +28,6 @@ export const NavBar = ({menuOpen, setMenuOpen}) =>{
                     </a>
 
                     <a 
-                        href="#resume"
-                        className="text-gray-300 hove:text-white transition-colors font-mono text-s font-bold"
-                    >
-                        Resume
-                    </a>
-
-                    <a 
                         href="#projects" 
                         className="text-gray-300 hove:text-white transition-colors font-mono text-s font-bold"
                     >
@@ -45,8 +38,17 @@ export const NavBar = ({menuOpen, setMenuOpen}) =>{
                         href="#contact" 
                         className="text-gray-300 hove:text-white transition-colors font-mono text-s font-bold"
                     >
-                        Contact
+                        Skills
                     </a>
+
+                    <a 
+                        href="#resume"
+                        className="text-gray-300 hove:text-white transition-colors font-mono text-s font-bold"
+                    >
+                        Resume
+                    </a>
+
+                  
                 </div>
             </div>
         </div>
