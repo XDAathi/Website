@@ -1,7 +1,7 @@
-import { FaPython, FaJava, FaSwift, FaNodeJs, FaGit, FaGithub  } from "react-icons/fa";
+import { FaPython, FaJava, FaSwift, FaNodeJs, FaGit, FaGithub } from "react-icons/fa";
 import { SiC, SiJavascript, SiHtml5, SiSwift, SiPycharm, SiJupyter } from "react-icons/si";
 import { RiReactjsFill, RiTailwindCssFill } from "react-icons/ri";
-import { DiVisualstudio, DiNetbeans  } from "react-icons/di";
+import { DiVisualstudio, DiNetbeans } from "react-icons/di";
 
 export const Skills = () => (
   <section
@@ -54,19 +54,19 @@ export const Skills = () => (
         <h3 className="text-xl font-bold text-indigo-300 mb-6 text-center">Frameworks</h3>
         <div className="space-y-3">
           <div className="bg-[#23232a] rounded-lg px-4 py-2 text-white flex justify-between items-center">
-            React JS <RiReactjsFill className="text-[#00599c] text-2xl ml-3"/>
+            React JS <RiReactjsFill className="text-[#00599c] text-2xl ml-3" />
           </div>
           <div className="bg-[#23232a] rounded-lg px-4 py-2 text-white flex justify-between items-center">
-            React Native <RiReactjsFill className="text-[#00599c] text-2xl ml-3"/>
+            React Native <RiReactjsFill className="text-[#00599c] text-2xl ml-3" />
           </div>
           <div className="bg-[#23232a] rounded-lg px-4 py-2 text-white flex justify-between items-center">
-            SwiftUI <FaSwift className="text-[#00F0FF] text-2xl ml-3"/>
+            SwiftUI <FaSwift className="text-[#00F0FF] text-2xl ml-3" />
           </div>
           <div className="bg-[#23232a] rounded-lg px-4 py-2 text-white flex justify-between items-center">
-            Node.js <FaNodeJs  className="text-[#00FF00] text-2xl ml-3"/>
+            Node.js <FaNodeJs className="text-[#00FF00] text-2xl ml-3" />
           </div>
           <div className="bg-[#23232a] rounded-lg px-4 py-2 text-white flex justify-between items-center">
-            TailwindCSS <RiTailwindCssFill className="text-[#A5F3FC] text-2xl ml-3"/>
+            TailwindCSS <RiTailwindCssFill className="text-[#A5F3FC] text-2xl ml-3" />
           </div>
         </div>
       </div>
@@ -79,22 +79,22 @@ export const Skills = () => (
         <h3 className="text-xl font-bold text-indigo-300 mb-6 text-center">Developer Tools</h3>
         <div className="space-y-3">
           <div className="bg-[#23232a] rounded-lg px-4 py-2 text-white flex justify-between items-center">
-            Git <FaGit className="text-[#F1502F] text-2xl ml-3"/>
+            Git <FaGit className="text-[#F1502F] text-2xl ml-3" />
           </div>
           <div className="bg-[#23232a] rounded-lg px-4 py-2 text-white flex justify-between items-center">
-            GitHub <FaGithub className="text-[#FFFFF] text-2xl ml-3"/>
+            GitHub <FaGithub className="text-white text-2xl ml-3" />
           </div>
           <div className="bg-[#23232a] rounded-lg px-4 py-2 text-white flex justify-between items-center">
-            VS Code <DiVisualstudio className="text-[#0078d7] text-2xl ml-3"/>
+            VS Code <DiVisualstudio className="text-[#0078d7] text-2xl ml-3" />
           </div>
           <div className="bg-[#23232a] rounded-lg px-4 py-2 text-white flex justify-between items-center">
-            NetBeans <DiNetbeans className="text-[#EA205E] text-2xl ml-3"/>
+            NetBeans <DiNetbeans className="text-[#EA205E] text-2xl ml-3" />
           </div>
           <div className="bg-[#23232a] rounded-lg px-4 py-2 text-white flex justify-between items-center">
-            PyCharm <SiPycharm className="text-[#4584b6] text-2xl ml-3"/>
+            PyCharm <SiPycharm className="text-[#4584b6] text-2xl ml-3" />
           </div>
           <div className="bg-[#23232a] rounded-lg px-4 py-2 text-white flex justify-between items-center">
-            Jupyter <SiJupyter className="text-[#F89D45] text-2xl ml-3"/>
+            Jupyter <SiJupyter className="text-[#F89D45] text-2xl ml-3" />
           </div>
         </div>
       </div>
