@@ -1,6 +1,7 @@
-import { FaPython, FaJava, FaSwift, FaNodeJs} from "react-icons/fa";
-import { SiC, SiJavascript, SiHtml5, SiSwift } from "react-icons/si";
+import { FaPython, FaJava, FaSwift, FaNodeJs, FaGit, FaGithub  } from "react-icons/fa";
+import { SiC, SiJavascript, SiHtml5, SiSwift, SiPycharm, SiJupyter } from "react-icons/si";
 import { RiReactjsFill, RiTailwindCssFill } from "react-icons/ri";
+import { DiVisualstudio, DiNetbeans  } from "react-icons/di";
 
 export const Skills = () => (
   <section
@@ -78,25 +79,22 @@ export const Skills = () => (
         <h3 className="text-xl font-bold text-indigo-300 mb-6 text-center">Developer Tools</h3>
         <div className="space-y-3">
           <div className="bg-[#23232a] rounded-lg px-4 py-2 text-white flex justify-between items-center">
-            Git <span className="text-2xl ml-3">🔧</span>
+            Git <FaGit className="text-[#F1502F] text-2xl ml-3"/>
           </div>
           <div className="bg-[#23232a] rounded-lg px-4 py-2 text-white flex justify-between items-center">
-            GitHub <span className="text-2xl ml-3">🐙</span>
+            GitHub <FaGithub className="text-[#FFFFF] text-2xl ml-3"/>
           </div>
           <div className="bg-[#23232a] rounded-lg px-4 py-2 text-white flex justify-between items-center">
-            VS Code <span className="text-2xl ml-3">💻</span>
+            VS Code <DiVisualstudio className="text-[#0078d7] text-2xl ml-3"/>
           </div>
           <div className="bg-[#23232a] rounded-lg px-4 py-2 text-white flex justify-between items-center">
-            NetBeans <span className="text-2xl ml-3">🫘</span>
+            NetBeans <DiNetbeans className="text-[#EA205E] text-2xl ml-3"/>
           </div>
           <div className="bg-[#23232a] rounded-lg px-4 py-2 text-white flex justify-between items-center">
-            VS Code <span className="text-2xl ml-3">💻</span>
+            PyCharm <SiPycharm className="text-[#4584b6] text-2xl ml-3"/>
           </div>
           <div className="bg-[#23232a] rounded-lg px-4 py-2 text-white flex justify-between items-center">
-            PyCharm <span className="text-2xl ml-3">🐍</span>
-          </div>
-          <div className="bg-[#23232a] rounded-lg px-4 py-2 text-white flex justify-between items-center">
-            Jupyter <span className="text-2xl ml-3">📒</span>
+            Jupyter <SiJupyter className="text-[#F89D45] text-2xl ml-3"/>
           </div>
         </div>
       </div>
