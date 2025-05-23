@@ -4,9 +4,13 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 export const About = () => {
     return <section 
     id="about" 
-    className="min-h-screen flex items-center justify-center relative"
+    className="min-h-screen flex items-center justify-center relative bg-gradient-to-b from-[#181824] via-[#23232a] to-[#181824]"
     >
-        <div className="flex flex-col items-center z-10 px-4 w-full max-w-2xl text-center">
+        <div className="absolute inset-0 pointer-events-none z-0">
+            <div className="w-40 h-40 bg-indigo-400 opacity-10 rounded-full blur-2xl absolute top-10 left-10"></div>
+            <div className="w-32 h-32 bg-blue-300 opacity-10 rounded-full blur-2xl absolute bottom-10 right-10"></div>
+        </div>
+        <div className="flex flex-col items-center z-10 px-4 w-full max-w-2xl text-center mt-16">
             <img
                 src="\src\assets\my_pic_cropped.jpeg"
                 alt="Aathi"
@@ -24,7 +28,8 @@ export const About = () => {
                     href="https://github.com/XDAathi"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-300 hover:text-white text-3xl transition-colors"
+                    className="text-gray-300 hover:text-white text-3xl transition-all duration-300
+                               hover:drop-shadow-[0_0_10px_rgba(165,180,252,0.9)]"
                     aria-label="GitHub"
                 >
                     <FaGithub />
@@ -33,14 +38,16 @@ export const About = () => {
                     href="https://www.linkedin.com/in/aathithya-ananth/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-400 hover:text-blue-600 text-3xl transition-colors"
+                    className="text-blue-400 hover:text-blue-300 text-3xl transition-all duration-300
+                               hover:drop-shadow-[0_0_10px_rgba(99,102,241,0.9)]"
                     aria-label="LinkedIn"
                 >
                     <FaLinkedin />
                 </a>
                 <a
                     href="mailto:aathithyaananth@gmail.com"
-                    className="text-red-300 hover:text-red-500 text-3xl transition-colors"
+                    className="text-red-300 hover:text-red-400 text-3xl transition-all duration-300
+                               hover:drop-shadow-[0_0_10px_rgba(244,63,94,0.8)]"
                     aria-label="Email"
                 >
                     <FaEnvelope />

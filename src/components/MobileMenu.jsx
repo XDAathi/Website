@@ -3,7 +3,7 @@ import { useEffect } from "react";
 export const MobileMenu = ({menuOpen, setMenuOpen}) => {
     return (
         <div 
-            className={`fixed top-0 left-0 w-full bg-slate-900 z-40 flex flex-col items-center justify-center 
+            className={`fixed top-0 left-0 w-full bg-gradient-to-b from-[#181824] via-[#23232a] to-[#181824] z-40 flex flex-col items-center justify-center 
                         transition-all duration-300 ease-in-out 
                         ${
                             menuOpen
@@ -16,48 +16,48 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
                 onClick={() => setMenuOpen(false)} 
                 className="absolute top-6 right-6 text-white text-3xl focus:outline-none cursor-pointer"
                 aria-label="Close Menu"
-                >
-                    &times;
+            >
+                &times;
             </button>
             
             <a 
                 href="#about"
                 onClick={() => setMenuOpen(false)}
-                className={`font-mono text-s text-2xl font-semibold text-white my-4 transform transition-transform duratio-300
+                className={`font-mono text-2xl font-semibold text-indigo-200 my-4 transform transition-transform duration-300
                             ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}
-                `}
+                            hover:text-indigo-400`}
             >
                 About
             </a>
 
             <a 
-                href="#resume"
-                onClick={() => setMenuOpen(false)}
-                className={`font-mono text-s text-2xl font-semibold text-white my-4 transform transition-transform duratio-300
-                    ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}
-                `}
-            >
-                Resume
-            </a>
-
-            <a 
                 href="#projects"
                 onClick={() => setMenuOpen(false)}
-                className={`font-mono text-s text-2xl font-semibold text-white my-4 transform transition-transform duratio-300
-                    ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}
-                `}
+                className={`font-mono text-2xl font-semibold text-indigo-200 my-4 transform transition-transform duration-300
+                            ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}
+                            hover:text-indigo-400`}
             >
                 Projects
             </a>
 
             <a 
-                href="#contact"
+                href="#skills"
                 onClick={() => setMenuOpen(false)}
-                className={`font-mono text-s text-2xl font-semibold text-white my-4 transform transition-transform duratio-300
-                    ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}
-                `}
+                className={`font-mono text-2xl font-semibold text-indigo-200 my-4 transform transition-transform duration-300
+                            ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}
+                            hover:text-indigo-400`}
             >
-                Contact
+                Skills
+            </a>
+
+            <a 
+                href="#resume"
+                onClick={() => setMenuOpen(false)}
+                className={`font-mono text-2xl font-semibold text-indigo-200 my-4 transform transition-transform duration-300
+                            ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}
+                            hover:text-indigo-400`}
+            >
+                Resume
             </a>
         </div>
     );
