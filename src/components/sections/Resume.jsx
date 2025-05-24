@@ -13,13 +13,13 @@ export const Resume = () => {
             </h2>
             <div className="w-full max-w-3xl bg-[#181824] rounded-2xl border border-indigo-900/60 shadow-2xl p-6 flex flex-col items-center z-10 font-mono">
                 <iframe
-                    src="/resume.pdf"
+                    src="/Website/resume.pdf"
                     title="Resume PDF"
                     className="w-full h-[80vh] rounded-lg bg-white mb-4"
                 />
             </div>
             <a
-                href="/resume.pdf"
+                href="/Website/resume.pdf"
                 download
                 className="mt-6 px-6 py-2 bg-[#181824] font-bold rounded-lg shadow-md border border-indigo-900/60
                            transition-all duration-300

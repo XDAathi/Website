@@ -3,7 +3,7 @@ export const Projects = () => {
         {
             title: "Ability",
             subtitle: "iOS APP · BLENDER · 3D PRINTING",
-            image: "/ability2.jpg",
+            image: "/Website/ability2.jpg",
             description: "An accessibility-focused iOS app that turns natural-language prompts and optional images into 3D-printable assistive devices via a Python-Blender pipeline. Built during Gen AI Hackathon 2025.",
             tags: ["Swift UI","Swift", "Python", "Blender", "Gemini", "Groq"],
             link: "https://github.com/XDAathi/Ability",
@@ -11,7 +11,7 @@ export const Projects = () => {
         {
             title: "DS3 Datathon",
             subtitle: "DATA SCIENCE COMPETITION",
-            image: "/ds3.png",
+            image: "/Website/ds3.png",
             description: "A data science project built for the DS3 Datathon. Utilized advanced analytics and machine learning to solve real-world problems using large datasets.",
             tags: ["ML", "Python", "Pandas", "Scikit-learn"],
             link: "https://github.com/XDAathi/DS3-Datathon",
@@ -19,7 +19,7 @@ export const Projects = () => {
         {
             title: "Fullstack Graph Visualizer & Intersection Finder",
             subtitle: "FULLSTACK APP",
-            image: "/plot.png",
+            image: "/Website/plot.png",
             description: "A application to visualize graphs and find intersections. Using inspiration from desmos,fullstack approach for interactive graph analysis.",
             tags: ["Python", "Tkinter", "Turtle"],
             link: "https://github.com/XDAathi/Fullstack-Graph-Visualizer-and-Intersection-Finder",
