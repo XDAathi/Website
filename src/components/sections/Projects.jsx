@@ -3,7 +3,7 @@ export const Projects = () => {
         {
             title: "Personal Portfolio",
             subtitle: "REACT · VITE · TAILWINDCSS",
-            image: "/Website/public/website_loading.png",
+            image: "/Website/website_loading.png",
             description: "This is my personal portfolio website (the one you're viewing now), built with React, Vite, and TailwindCSS. It showcases my projects, skills, and resume.",
             tags: ["React", "Vite", "TailwindCSS", "GitHub Pages"],
             link: "https://github.com/XDAathi/Website",
