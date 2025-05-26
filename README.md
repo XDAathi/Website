@@ -21,3 +21,10 @@ Welcome to the source code for my personal portfolio website – built it to lea
 - **Tailwind CSS** – Utility-first CSS framework
 - **Vite** – Lightning-fast build tool
 - **GitHub Pages** – For simple deployment
+
+## 📍 To Do
+
+- Add a hackathons page and list my experiences
+- Add the leadership tab
+- Eventually buy a domain for the website
+- Update temprorary resume with updated one
