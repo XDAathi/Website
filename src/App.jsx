@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import './App.css';
 import { LoadingScreen } from './components/LoadingScrn';
 import './index.css';
@@ -12,20 +12,6 @@ import { Skills } from './components/sections/Skills';
 function App(){
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-
-  useEffect(() => {
-    // Prevent scrolling when loading
-    if (!isLoaded) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = 'unset';
-    }
-
-    // Cleanup function to restore scrolling
-    return () => {
-      document.body.style.overflow = 'unset';
-    };
-  }, [isLoaded]);
 
   return(
   <>

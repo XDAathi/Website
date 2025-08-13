@@ -1,23 +1,6 @@
 export const Projects = () => {
     const projects = [
         {
-            title: "Bin Buddy",
-            subtitle: "SUPABASE(SQL) · REACT · JAVASCRIPT · PYTHON",
-            image: "/Website/dist/bin_buddy.png", // Add this image to your /public folder
-            description: "A full-stack web application that streamlines the donation & trash process by matching users with nearby donation bins or waste sites. Integrated Supabase for managing user-submitted clothing data and map for bin locations.",
-            tags: ["Supabase", "SQL", "React", "JavaScript", "Python"],
-            link: "https://github.com/XDAathi/Bin-Buddy", // Update with your actual repo link
-            badge: "HACKATHON WINNER"
-        },
-        {
-            title: "Personal Portfolio",
-            subtitle: "REACT · VITE · TAILWINDCSS",
-            image: "/my_pic_cropped.jpeg",
-            description: "This is my personal portfolio website (the one you're viewing now), built with React, Vite, and TailwindCSS. It showcases my projects, skills, and resume.",
-            tags: ["React", "Vite", "TailwindCSS", "GitHub Pages"],
-            link: "https://github.com/XDAathi/Website",
-        },
-        {
             title: "Ability",
             subtitle: "iOS APP · BLENDER · 3D PRINTING",
             image: "/ability2.jpg",
@@ -65,15 +48,8 @@ export const Projects = () => {
                                        transition-all duration-300
                                        hover:scale-105
                                        hover:shadow-[0_0_32px_4px_rgba(129,140,248,0.25),0_0_80px_8px_rgba(99,102,241,0.12)]
-                                       hover:border-indigo-400 relative"
+                                       hover:border-indigo-400"
                         >
-                            {project.badge && (
-                                <div className="absolute top-4 left-4 z-10">
-                                    <div className="bg-yellow-500 text-black text-xs font-black px-3 py-1 rounded-lg shadow-lg">
-                                        {project.badge}
-                                    </div>
-                                </div>
-                            )}
                             <div className="w-full h-48 bg-gradient-to-r from-indigo-900/40 to-blue-900/30 flex items-center justify-center overflow-hidden">
                                 <img
                                     src={project.image}
