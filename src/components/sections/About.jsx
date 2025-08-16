@@ -12,7 +12,7 @@ export const About = () => {
             </div>
             <div className="flex flex-col items-center z-10 px-4 w-full max-w-2xl text-center mt-16">
                 <img
-                    src="\src\assets\my_pic_cropped.jpeg"
+                    src="public/website pic.jpg"
                     alt="Aathi"
                     className="w-36 h-36 md:w-48 md:h-48 rounded-full object-cover mb-6 shadow-lg border-4 border-indigo-300"
                 />
@@ -22,6 +22,7 @@ export const About = () => {
                 <p className="font-mono text-lg text-indigo-100 mb-8 max-w-lg mx-auto">
                     I'm a 2nd year pursuing a Statistics Quantitative Finance Specialist with an Econ minor
                     <br /><span className="text-indigo-300">@University of Toronto</span>
+                    <br />During my spare time I enjoy playing badminton, volleyball, swim and working out!
                 </p>
                 <div className="flex justify-center items-center space-x-6 mt-2">
                     <a

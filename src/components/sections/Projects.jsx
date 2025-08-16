@@ -1,25 +1,43 @@
 export const Projects = () => {
     const projects = [
         {
+            title: "Bin Buddy",
+            subtitle: "Hackathon Project",
+            image: "public/binbud.png",
+            description: "Full stack waste classification program build during Solution Hacks. WON 1st PLACE!! Fully functional with a database to store user data and location data related to disposable locations. Also includes Google Auth.",
+            tags: ["Python", "React", "Postgre SQL", "Vite"],
+            link: "https://github.com/XDAathi/Bin-Buddy",
+            badge: "HACKATHON WINNER"
+        },
+        {
+            title: "Accident & Car Manufacturing Analysis",
+            subtitle: "Data Science Case Comp",
+            image: "public/DS3_D.png",
+            description: "A data science project built for the DS3 Datathon. Utilized advanced analytics and machine learning to solve real-world problems using large datasets.",
+            tags: ["ML ", "Python", "Pandas", "Scikit-learn", "Numpy", "Pandas", "Seaborn"],
+            link: "https://github.com/XDAathi/DS3-Datathon",
+        },
+        {
+            title: "Personal Website",
+            subtitle: "Personal Project",
+            image: "public/website.png",
+            description: "This is the website you are on right NOW!! I used this project to self teach React. Encorporated TailWindCSS for better coding experience.",
+            tags: ["React", "JavaScript", "TailWindCSS"],
+            link: "https://github.com/XDAathi/Ability",
+        },
+        {
             title: "Ability",
-            subtitle: "iOS APP · BLENDER · 3D PRINTING",
-            image: "/ability2.jpg",
+            subtitle: "Hackathon Project",
+            image: "public/ability2.jpg",
             description: "An accessibility-focused iOS app that turns natural-language prompts and optional images into 3D-printable assistive devices via a Python-Blender pipeline. Built during Gen AI Hackathon 2025.",
             tags: ["Swift UI","Swift", "Python", "Blender", "Gemini", "Groq"],
             link: "https://github.com/XDAathi/Ability",
         },
-        {
-            title: "DS3 Datathon",
-            subtitle: "DATA SCIENCE COMPETITION",
-            image: "/ds3.png",
-            description: "A data science project built for the DS3 Datathon. Utilized advanced analytics and machine learning to solve real-world problems using large datasets.",
-            tags: ["ML", "Python", "Pandas", "Scikit-learn"],
-            link: "https://github.com/XDAathi/DS3-Datathon",
-        },
+    
         {
             title: "Fullstack Graph Visualizer & Intersection Finder",
-            subtitle: "FULLSTACK APP",
-            image: "/plot.png",
+            subtitle: "Personal Project",
+            image: "public/plot.png",
             description: "A application to visualize graphs and find intersections. Using inspiration from desmos,fullstack approach for interactive graph analysis.",
             tags: ["Python", "Tkinter", "Turtle"],
             link: "https://github.com/XDAathi/Fullstack-Graph-Visualizer-and-Intersection-Finder",
@@ -48,8 +66,15 @@ export const Projects = () => {
                                        transition-all duration-300
                                        hover:scale-105
                                        hover:shadow-[0_0_32px_4px_rgba(129,140,248,0.25),0_0_80px_8px_rgba(99,102,241,0.12)]
-                                       hover:border-indigo-400"
+                                       hover:border-indigo-400 relative"
                         >
+                            {project.badge && (
+                                <div className="absolute top-4 left-4 z-10">
+                                    <div className="bg-yellow-500 text-black text-xs font-black px-3 py-1 rounded-lg shadow-lg">
+                                        {project.badge}
+                                    </div>
+                                </div>
+                            )}
                             <div className="w-full h-48 bg-gradient-to-r from-indigo-900/40 to-blue-900/30 flex items-center justify-center overflow-hidden">
                                 <img
                                     src={project.image}
