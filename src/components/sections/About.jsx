@@ -12,7 +12,7 @@ export const About = () => {
             </div>
             <div className="flex flex-col items-center z-10 px-4 w-full max-w-2xl text-center mt-16">
                 <img
-                    src="public/website pic.jpg"
+                    src="website pic.jpg"
                     alt="Aathi"
                     className="w-36 h-36 md:w-48 md:h-48 rounded-full object-cover mb-6 shadow-lg border-4 border-indigo-300"
                 />

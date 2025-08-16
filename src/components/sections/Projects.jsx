@@ -3,7 +3,7 @@ export const Projects = () => {
         {
             title: "Bin Buddy",
             subtitle: "Hackathon Project",
-            image: "public/binbud.png",
+            image: "binbud.png", // Remove "public/"
             description: "Full stack waste classification program build during Solution Hacks. WON 1st PLACE!! Fully functional with a database to store user data and location data related to disposable locations. Also includes Google Auth.",
             tags: ["Python", "React", "Postgre SQL", "Vite"],
             link: "https://github.com/XDAathi/Bin-Buddy",
@@ -12,7 +12,7 @@ export const Projects = () => {
         {
             title: "Accident & Car Manufacturing Analysis",
             subtitle: "Data Science Case Comp",
-            image: "public/DS3_D.png",
+            image: "DS3_D.png", // Remove "public/"
             description: "A data science project built for the DS3 Datathon. Utilized advanced analytics and machine learning to solve real-world problems using large datasets.",
             tags: ["ML ", "Python", "Pandas", "Scikit-learn", "Numpy", "Pandas", "Seaborn"],
             link: "https://github.com/XDAathi/DS3-Datathon",
@@ -20,24 +20,23 @@ export const Projects = () => {
         {
             title: "Personal Website",
             subtitle: "Personal Project",
-            image: "public/website.png",
+            image: "website.png", // Remove "public/"
             description: "This is the website you are on right NOW!! I used this project to self teach React. Encorporated TailWindCSS for better coding experience.",
             tags: ["React", "JavaScript", "TailWindCSS"],
-            link: "https://github.com/XDAathi/Ability",
+            link: "https://github.com/XDAathi/Website", // Fix this link too
         },
         {
             title: "Ability",
             subtitle: "Hackathon Project",
-            image: "public/ability2.jpg",
+            image: "ability2.jpg", // Remove "public/"
             description: "An accessibility-focused iOS app that turns natural-language prompts and optional images into 3D-printable assistive devices via a Python-Blender pipeline. Built during Gen AI Hackathon 2025.",
             tags: ["Swift UI","Swift", "Python", "Blender", "Gemini", "Groq"],
             link: "https://github.com/XDAathi/Ability",
         },
-    
         {
             title: "Fullstack Graph Visualizer & Intersection Finder",
             subtitle: "Personal Project",
-            image: "public/plot.png",
+            image: "plot.png", // Remove "public/"
             description: "A application to visualize graphs and find intersections. Using inspiration from desmos,fullstack approach for interactive graph analysis.",
             tags: ["Python", "Tkinter", "Turtle"],
             link: "https://github.com/XDAathi/Fullstack-Graph-Visualizer-and-Intersection-Finder",
