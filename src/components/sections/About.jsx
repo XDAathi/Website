@@ -19,8 +19,8 @@ export const About = () => {
                 <h1 className="font-mono text-5xl md:text-7xl font-bold bg-gradient-to-r from-indigo-200 to-indigo-400 bg-clip-text text-transparent mb-4">
                     Hey I'm Aathi!
                 </h1>
-                <p className="font-mono text-lg text-indigo-100 mb-8 max-w-lg mx-auto">
-                    I'm a 2nd year pursuing a Statistics Quantitative Finance Specialist with an Econ minor
+                <p className="font-mono text-lg text-indigo-100 mb-8 max-w-xl mx-auto">
+                    I'm a 2nd year pursuing a Statistics & Economics Major
                     <br /><span className="text-indigo-300">@University of Toronto</span>
                     <br />During my spare time I enjoy playing badminton, volleyball, swim and working out!
                 </p>
