@@ -4,7 +4,7 @@ Welcome to the source code for my personal portfolio website – built it to lea
 
 ## 🌐Check out the Website
 
-[https://xdaathi.github.io/Website](https://xdaathi.github.io/Website)
+[https://xdaathi.github.io/Website](https://aathi.ca)
 
 ## 📁 Features
 
